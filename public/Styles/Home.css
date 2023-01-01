@@ -52,3 +52,11 @@ body
     padding: 8px;
     opacity: 80%;
 }
+
+#Block 
+{
+    padding:10px;
+    background-color: darkslategray;
+    width:40px;
+    height:40px;
+}

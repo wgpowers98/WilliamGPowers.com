@@ -11,7 +11,10 @@
 </head>
 </head>
 
-<body></body>
+<body onmousemove="showCoords(event)">
+  
+
+
 <script src="Scripts/Home.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
@@ -52,13 +55,18 @@
     </div>
   </div>
 </nav>
-<div class="Space"></div>
+
+    <div class="Space"></div>
 <h1 class="Title ">Welcome to my Page</h1>
 <div class="Sign">
   <h1 class="subTitle" id="neonListen" onmouseenter="neonScriptEnter()" onmouseleave="neonScriptLeave()">
     williamgpowers.com</h1>
-
 </div>
+<button onclick="movable()">MoveBlock</button>
+<div id="FollowM">
+  <div id="Block"></div>
+</div>
+
 
 
 </body>
