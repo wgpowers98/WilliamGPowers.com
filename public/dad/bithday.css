@@ -1,0 +1,17 @@
+h1 
+{
+    font-family: fantasy;
+    color: white;
+    text-align: center;
+    font-size: 70px;
+}
+
+
+body{
+    background:black;
+    overflow:hidden;
+    margin:0;
+  }
+  canvas{
+    background:#000;
+  }
