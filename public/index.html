@@ -6,74 +6,77 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handjet&display=swap" rel="stylesheet">
 </head>
-</head>
 
-<body onmousemove="showCoords(event)">
-  
+  <body onmousemove="showCoords(event)">
+    
+    <nav class="navbar navbar-expand-lg navStyle row ">
+      <div class="container-fluid">
+        <a class="navbar-brand navButtonStyle" onmouseenter="this.classList.add('navHighlight');" onmouseleave="this.classList.remove('navHighlight');" href="#">williamgpowers.com</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            
+            <li class="nav-item">
+              <a class="nav-link active navButtonStyle" onmouseenter="this.classList.add('navHighlight');" onmouseleave="this.classList.remove('navHighlight');"  aria-current="page" href="#">Home</a>
+            </li>
 
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle navButtonStyle " href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false" onmouseenter="this.classList.add('navHighlight');" onmouseleave="this.classList.remove('navHighlight');">Projects</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">NKU Grid Project (In Progress)</a></li>
+                <li><a class="dropdown-item" href="https://github.com/wgpowers98/Crypto-Finance-Bot-">Discord Crypto Bot</a></li>
+                <li><a class="dropdown-item" href="https://github.com/NoahFleitz/drawing-app">DoodleFlipper</a></li>
+              </ul>
+            </li>
 
-<script src="Scripts/Home.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-<link href="Styles/Home.css" rel="stylesheet" />
-<nav class="navbar navbar-expand-lg bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">William Powers</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-            aria-expanded="false">Projects</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">NKU Grid Project (In Progress)</a></li>
-            <li><a class="dropdown-item" href="#">Discord Crypto Bot</a></li>
-            <li><a class="dropdown-item" href="#">Project 3</a></li>
+            <li class="nav-item">
+              <a class="nav-link navButtonStyle" onmouseenter="this.classList.add('navHighlight');" onmouseleave="this.classList.remove('navHighlight');" href="https://github.com/wgpowers98/" style="color:#5b388f">GitHub</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navButtonStyle" onmouseenter="this.classList.add('navHighlight');" onmouseleave="this.classList.remove('navHighlight');" href="https://www.linkedin.com/in/will-powers-0b2523147/" style="color:#0077b5">LinkedIn</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navButtonStyle" onmouseenter="this.classList.add('navHighlight');" onmouseleave="this.classList.remove('navHighlight');" href="https://www.flickr.com/photos/196711262@N03/" style="color:FF0084">Flicker</a>
+            </li>
           </ul>
-        </li>
+        </div>
+      </div>
+    </nav>
 
-        <li class="nav-item">
-          <a class="nav-link" href="https://github.com/wgpowers98/" style="color:#6e5494">GitHub</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.linkedin.com/in/will-powers-0b2523147/" style="color:#0077b5">LinkedIn</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.flickr.com/photos/196711262@N03/" style="color:black">Photo Album</a>
-        </li>
-        <li>
-          <a class="nav-link" href="dad/bithday.html" style="color:black">Happy Bithday</a>
-        </li>
-      </ul>
+    <script src="Scripts/Home.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <link href="Styles/Home.css" rel="stylesheet" />
+    
+    
+    
+    <div class="Space"></div>
+    
+    <div class="container">
+        <div class="row justify-content-md-center">
+      
+        <div class="card col-5">
+          <h1 class="Title" id="neonListen" onmouseenter="neonScriptEnter()" onmouseleave="neonScriptLeave()">Hi I'm William (:</h1>
+          <h2 class= "subTitle text-primary">-About Me-</h2>
+          <ul class= "list-group">
+            <li class = "list-group-item" onmouseenter="this.classList.add('textHighlight');" onmouseleave="this.classList.remove('textHighlight');"><h3 class= "description text-dark" >I am a dedicated recent college graduate currently working in Operations for Fidelity Investments.</h3></li>
+            <li class = "list-group-item" onmouseenter="this.classList.add('textHighlight');" onmouseleave="this.classList.remove('textHighlight');"><h3 class= "description text-dark"><h3 class= "description text-dark">I am also the VP of Marketing for the Bluegrass chapter of the IIBA and a part time Digital Media Assistant for the NKU Museum of Anthropology.</h3></li>
+        </ul>
+        </div>
+      </div>
     </div>
-  </div>
-</nav>
 
-<div class="Space"></div>
-<button onclick="movable()">Sword (arrg)</button>
-<h1 class="Title ">Welcome to my Page</h1>
-<div class="Sign">
-  <h1 class="subTitle" id="neonListen" onmouseenter="neonScriptEnter()" onmouseleave="neonScriptLeave()">
-    williamgpowers.com</h1>
-</div>
+   
+    
 
-
-<div id="FollowM">
-  <img id="Block" src ="Images/Sword.png"></img>
-</div>
-
-
-
-</body>
-
+    
+  </body>
 </html>
